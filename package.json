@@ -1,0 +1,25 @@
+{
+  "name": "skype-whatsapp-call-logs-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "skype": "node ./src/skype-call-logs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwijma/skype-whatsapp-call-logs-extractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianwijma/skype-whatsapp-call-logs-extractor/issues"
+  },
+  "homepage": "https://github.com/ianwijma/skype-whatsapp-call-logs-extractor#readme",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.27.0"
+  }
+}
